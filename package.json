@@ -6,6 +6,9 @@
   "author": "Joao Hencke <joao.paulo@kiper.com.br> (https://github.com/joaohencke)",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "lint": "eslint --fix --ext .js"
+  },
   "workspaces": [
     "packages/*"
   ],

@@ -12,7 +12,7 @@ module.exports = (_, { mode }) => {
   const isProduction = mode === 'production';
   const externals = [
     WebpackNodeExternals({
-      modulesDir: path.resolve(__dirname, '../../../node_modules'),
+      modulesDir: path.resolve(__dirname, '../../node_modules'),
       whitelist: [/@kiper/],
     }),
   ];
